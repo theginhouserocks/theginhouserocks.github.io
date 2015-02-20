@@ -1,0 +1,244 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.view_more a, .view_more a:link, .view_more a:hover {
+  float: right;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 24px; 
+}
+
+
+/* additional sections */
+#home {
+  background: url(../images/tele_guitar.jpg) no-repeat center center fixed;
+  opacity: 1;
+  color: #ffffff; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.social img {
+  opacity: 0.8;
+}
+
+.social img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+#news {
+  background-color: #348e2f;
+  color: #ffffff;
+}
+
+
+#band {
+  background: url(../images/ESP_guitar.jpg) no-repeat center center fixed;
+  opacity: 5;
+  color: #ffffff; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#video {
+}
+
+  		/*  VIDEO PLAYER CONTAINER
+ 		############################### */
+  		.vid-container {
+		    position: relative;
+		    padding-bottom: 52%;
+		    padding-top: 30px; 
+		    height: 0; 
+		}
+		 
+		.vid-container iframe,
+		.vid-container object,
+		.vid-container embed {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+
+
+		/*  VIDEOS PLAYLIST 
+ 		############################### */
+		.vid-list-container {
+			width: 92%;
+			overflow: hidden;
+			margin-top: 20px;
+			margin-left:4%;
+			padding-bottom: 20px;
+		}
+
+		.vid-list {
+			width: 1344px;
+			position: relative;
+			top:0;
+			left: 0;
+		}
+
+		.vid-item {
+			display: block;
+			width: 148px;
+			height: 148px;
+			float: left;
+			margin: 0;
+			padding: 10px;
+		}
+
+		.thumb {
+			/*position: relative;*/
+			overflow:hidden;
+			height: 84px;
+		}
+
+		.thumb img {
+			width: 100%;
+			position: relative;
+			top: -13px;
+                        opacity: 0.6;
+		}
+
+		.vid-item .desc {
+                        text-transform: uppercase;
+                        text-align: center;
+			color: #348e2f;
+			margin-top:5px;
+		}
+
+		.thumb img:hover {
+			opacity: 1;
+			cursor: pointer;
+		}
+
+		.arrows {
+			position:relative;
+			width: 100%;
+		}
+
+		.arrow-left {
+			color: #fff;
+			position: absolute;
+			background: #348e2f;
+			padding: 15px;
+			left: 0px;
+			top: -130px;
+			z-index: 99;
+			cursor: pointer;
+		}
+
+		.arrow-right {
+			color: #fff;
+			position: absolute;
+			background: #348e2f;
+			padding: 15px;
+			right: 0px;
+			top: -130px;
+			z-index:100;
+			cursor: pointer;
+		}
+
+		.arrow-left:hover {
+			background: #cd201f
+;
+		}
+
+		.arrow-right:hover {
+			background: #cd201f
+;
+		}
+
+
+		@media (max-width: 624px) {
+			body {
+				margin: 15px;
+			}
+
+			.vid-list-container {
+				padding-bottom: 20px;
+			}
+
+			/* reposition left/right arrows */
+			.arrows {
+				position:relative;
+				margin: 0 auto;
+				width:96px;
+			}
+			.arrow-left {
+				left: 0;
+				top: -17px;
+			}
+
+			.arrow-right {
+				right: 0;
+				top: -17px;
+			}
+		}
+
+
+
+
+
+
+#photo {
+}
+
+.imagegrid {
+  margin: 0px 0px 30px 0px;
+}
+
+
+footer {
+  padding: 20px 0;
+  background-color: #141414;
+  color: #ffffff;
+  width: 100%;
+}
+
+.voffset15 { margin-top: 15px; }
